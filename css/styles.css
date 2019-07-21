@@ -138,3 +138,12 @@ ul{
   display: none;
   text-align: center;
 }
+
+.description h6{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.description p{
+  font-size: 10px;
+}
