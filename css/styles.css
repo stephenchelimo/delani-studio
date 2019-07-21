@@ -123,3 +123,18 @@ ul{
   padding: 270px;
   padding-top: 0px;
 }
+
+#desc-des{
+  display: none;
+  text-align: center;
+}
+
+#desc-dev{
+  display: none;
+  text-align: center;
+}
+
+#desc-prod{
+  display: none;
+  text-align: center;
+}
