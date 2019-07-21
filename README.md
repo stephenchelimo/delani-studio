@@ -33,7 +33,7 @@ https://barakamulas.github.io/delani-studio
 
 1. In the terminal navigate to the directory you want the project to reside in e.g (cd ~/Documents)
 1. Clone the project (git clone https://github.com/barakamulas/delani-studio )
-1. Navigate into the created folder (cd akan-names)
+1. Navigate into the created folder (cd delani-studio)
 1. Open the project with a text editor eg atom (atom .)
 
 ### Second Method
