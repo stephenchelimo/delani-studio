@@ -68,3 +68,13 @@ $('#work8').on("mouseout", function() {
   $('#box8').hide();
 });
 });
+
+document.getElementById('submit').addEventListener('click', function(){
+  var name = document.getElementById('name').value;
+  document.getElementById('response').value = name + ", we have received your message. Thank you for reaching us.";
+});
+
+document.getElementById('submit').addEventListener('click', function(){
+  document.querySelector('.bg-modal').style.display = 'flex';
+  event.preventDefault();
+});
