@@ -90,3 +90,21 @@ input{
   margin-right: 10px;
   color: white;
 }
+
+#name{
+  width: 330px;
+}
+
+#email{
+  width: 300px;
+}
+
+textarea{
+  background-color: inherit;
+  margin-left: 10px;
+  color: white;
+}
+
+form{
+  margin-top: 20px;
+}
