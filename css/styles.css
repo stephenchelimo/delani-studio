@@ -112,3 +112,7 @@ form{
 ::placeholder{
   color: white;
 }
+
+ul{
+  list-style: none;
+}
