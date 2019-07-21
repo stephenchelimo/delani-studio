@@ -52,3 +52,13 @@ h4{
 #about{
   display: block;
 }
+
+#services {
+  padding-top: 18px;
+  display: block;
+  background-image: url(../images/s_image.jpg);
+  background-size: 100%,100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
