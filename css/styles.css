@@ -175,3 +175,11 @@ ul{
   left: 35%;
   /* display: none; */
 }
+
+.modal-content{
+  width: 400px;
+  height: 200px;
+  background-color: #585756;
+  border-radius: 5px;
+  position: relative;
+}
