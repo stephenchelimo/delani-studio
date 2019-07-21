@@ -116,3 +116,10 @@ form{
 ul{
   list-style: none;
 }
+
+#socialmedia{
+  width: 100%;
+  display: block;
+  padding: 270px;
+  padding-top: 0px;
+}
