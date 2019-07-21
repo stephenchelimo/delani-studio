@@ -173,7 +173,7 @@ ul{
   position: absolute;
   top: 230%;
   left: 35%;
-  /* display: none; */
+  display: none;
 }
 
 .modal-content{
@@ -182,4 +182,16 @@ ul{
   background-color: #585756;
   border-radius: 5px;
   position: relative;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  color: white;
+}
+
+.response{
+  position: absolute;
+  top: 20%;
 }
