@@ -1,0 +1,41 @@
+#box{
+  position: relative;
+  display: inline-block;
+}
+
+.text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 31%;
+  text-align: center;
+  width: 60%;
+  color: white;
+}
+
+#box .mouse{
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mouse img{
+  height: 30px;
+}
+
+ #logo{
+  height: 70px;
+}
+
+p{
+  text-align: center;
+  font-size: 12px;
+}
+
+.text h2{
+  font-size: 42px;
+}
