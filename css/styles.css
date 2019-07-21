@@ -39,3 +39,16 @@ p{
 .text h2{
   font-size: 42px;
 }
+
+h4{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+#about{
+  display: block;
+}
