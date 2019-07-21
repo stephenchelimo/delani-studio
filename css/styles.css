@@ -108,3 +108,7 @@ textarea{
 form{
   margin-top: 20px;
 }
+
+::placeholder{
+  color: white;
+}
