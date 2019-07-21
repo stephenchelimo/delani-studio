@@ -82,4 +82,8 @@ document.getElementById('submit').addEventListener('click', function(){
 document.querySelector('.close').addEventListener('click', function(){
   document.querySelector('.bg-modal').style.display = 'none';
   event.preventDefault();
-});s
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+ document.getElementById("form").reset();
+});
