@@ -99,9 +99,16 @@ function typeMessage() {
 }
 
 document.getElementById('submit').addEventListener('click', function(){
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
   var name = document.getElementById('name').value;
-  document.getElementById('response').value = name + ", we have received your message. Thank you for reaching us.";
-});
+  if (name !== "" && email !== "" && message !== ""){
+    document.getElementById('response').value = name + ", we have received your message. Thank you for reaching us.";
+  }
+  else{
+    document.getElementById('response').value = "Kindly ensure all fields are filled!!";
+  }
+  });
 
 document.getElementById('submit').addEventListener('click', function(){
   document.querySelector('.bg-modal').style.display = 'flex';
