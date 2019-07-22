@@ -74,6 +74,30 @@ function allLetters(input){
   input.value = input.value.replace(characters, "");
 }
 
+function giveName() {
+  var usrname = document.getElementById("name").value;
+  if (usrname == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+function giveEmail() {
+  var email = document.getElementById("email").value;
+  if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+}
+
+function typeMessage() {
+  var message = document.getElementById("message").value;
+  if (message == "") {
+    alert("There is no message");
+    return false;
+  }
+}
+
 document.getElementById('submit').addEventListener('click', function(){
   var name = document.getElementById('name').value;
   document.getElementById('response').value = name + ", we have received your message. Thank you for reaching us.";
