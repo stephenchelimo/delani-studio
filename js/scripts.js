@@ -69,6 +69,13 @@ $(document).ready(function(){
   });
 });
 
+function validEmail() {
+  var email = document.getElementById("email").value;
+  if (email !== /\S+@\S+\.\S+/){
+    document.getElementById('response').value = "Please enter a valid email";
+  }
+}
+
 function allLetters(input){
   var characters = /[^a-z '']/gi;
   input.value = input.value.replace(characters, "");
@@ -77,7 +84,7 @@ function allLetters(input){
 function giveName() {
   var usrname = document.getElementById("name").value;
   if (usrname == "") {
-    alert("Name must be filled out");
+      document.getElementById('response').value = "Name must be filled";
     return false;
   }
 }
@@ -85,7 +92,7 @@ function giveName() {
 function giveEmail() {
   var email = document.getElementById("email").value;
   if (email == "") {
-    alert("Email must be filled out");
+        document.getElementById('response').value = "Email must be filled";
     return false;
   }
 }
@@ -93,7 +100,7 @@ function giveEmail() {
 function typeMessage() {
   var message = document.getElementById("message").value;
   if (message == "") {
-    alert("There is no message");
+      document.getElementById('response').value = "Type in a messaage";
     return false;
   }
 }
